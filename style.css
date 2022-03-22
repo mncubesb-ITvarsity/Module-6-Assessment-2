@@ -209,6 +209,7 @@ ul.styled li{
     
     width: 70%;
     padding: 15px;
+
 }
 input{
     width: 100%;
@@ -234,4 +235,17 @@ textarea{
     font-weight : 600;
     margin : 12px 0;
     padding : 8px 0;
+}
+
+#page-1 img:hover{
+	-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+ }
+ #page-1 img{
+    
+	margin:12px;
+	-moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
 }
